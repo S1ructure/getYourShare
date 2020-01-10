@@ -1,0 +1,45 @@
+.particiant {
+    margin-bottom: 20px;
+
+    .card-header {
+
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        >.badge {
+            display: flex;
+            align-items: center;
+        }
+
+        &--75 {
+            display: flex;
+            flex: 1 1;
+        }
+
+        &--25 {
+            display: flex;
+            flex: 0 1;
+        }
+
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // Vars
+
+    // Support
+
+    // Module
+    & {
+        //
+    }
+
+    // Facets
+
+    // States
+}

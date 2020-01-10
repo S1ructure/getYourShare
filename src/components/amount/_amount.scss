@@ -1,0 +1,23 @@
+.amount {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  > div {
+    padding: 5px;
+  }
+
+  .amount__value,
+  .amount__reason {
+    min-width: 120px;
+  }
+
+  .amount__remove {
+    align-items: center;
+  }
+
+  .amount__value,
+  .amount__reason,
+  .amount__remove {
+    display: flex;
+  }
+}

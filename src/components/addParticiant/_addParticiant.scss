@@ -1,0 +1,39 @@
+.addParticiant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+
+  .addParticiantForm {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    > input {
+
+      display: flex;
+      flex: 0 1 150px;
+      min-width: 100px;
+
+    }
+
+    > button {
+
+      display: flex;
+      flex: 0 1 150px;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+  }
+
+  &__headline {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+}

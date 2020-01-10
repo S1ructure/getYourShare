@@ -1,0 +1,15 @@
+.saveShare {
+
+  display: flex;
+  justify-content: center;
+
+  >.badge {
+
+    display: flex;
+    flex: 0 1 400px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
